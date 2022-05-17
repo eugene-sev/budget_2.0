@@ -5,13 +5,14 @@ f = open ('m.txt', 'w')
 f.write (str(d)+'\n')
 f.close()
 def gam (name):
-    unsv = 'y'
     c = 0
     f = open ('m.txt', 'a')
     f.write (name +'\n')
-    print ("-----------"+ name +"--------"+'\n')
-    while unsv == 'y':
+    print ("-----------"+ name +"--------"+'\n'+"tap name 'next' for the next step"+"\n")
+    while True:
         a = input("name - ")
+        if a == "next":
+            break
         try:
             b = eval(input("money - "))
         except NameError:
@@ -19,7 +20,6 @@ def gam (name):
             b = eval(input("money - "))
         c += b
         f.write (a + " - " + str(b)+'\n')
-        unsv = input("next? (y / n)")
     f.write ("SUM "+ name +'\n' + str(c) +'\n' + "---------"+'\n')
     f.close()
 gam("debet")
