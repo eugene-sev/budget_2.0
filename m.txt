@@ -1,0 +1,16 @@
+debet
+tt - 6ttt - 66-----------debet---end------credit
+rr - 77rrr - 7777-----------credit---end------debet
+yyy - 777
+iiiii - 88888
+-----------debet---end------
+credit
+gggg - 8888990
+-----------credit---end------
+debet
+f - 55
+-----------debet---end------
+credit
+rrr - 44
+we - 43
+-----------credit---end------
